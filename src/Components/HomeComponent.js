@@ -1,8 +1,11 @@
+import React from "react";
+
 function HomeComponent() {
     return (
         <>
-        <h2>Day la trang home nhe</h2>
+            <h3>HOME HOME</h3>
         </>
     );
 }
+
 export default HomeComponent;

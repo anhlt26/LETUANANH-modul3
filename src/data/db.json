@@ -1,0 +1,63 @@
+{
+  "products": [
+    {
+      "name": "Iphone",
+      "manufacture": {
+        "id": 2,
+        "name": "Nokia"
+      },
+      "sim": "1",
+      "feature": [
+        "Bluetooth"
+      ],
+      "id": 1
+    },
+    {
+      "name": "Galaxy",
+      "manufacture": {
+        "id": 1,
+        "name": "Sam sung"
+      },
+      "sim": "2",
+      "feature": [
+        "Bluetooth",
+        "5G"
+      ],
+      "id": 2
+    },
+    {
+      "name": "Vivo",
+      "manufacture": {
+        "id": 5,
+        "name": "China"
+      },
+      "sim": "1",
+      "feature": [
+        "Bluetooth"
+      ],
+      "id": 3
+    }
+  ],
+  "manufactures": [
+    {
+      "id": 1,
+      "name": "Sam sung"
+    },
+    {
+      "id": 2,
+      "name": "Nokia"
+    },
+    {
+      "id": 3,
+      "name": "Iphone"
+    },
+    {
+      "id": 4,
+      "name": "Bphone"
+    },
+    {
+      "id": 5,
+      "name": "China"
+    }
+  ]
+}
