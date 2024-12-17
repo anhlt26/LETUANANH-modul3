@@ -8,6 +8,7 @@ import HomeComponent from "./components/HomeComponent";
 import AddComponent from "./components/AddComponent";
 import DetailComponent from "./components/DetailComponent"
 import { ToastContainer} from "react-toastify"
+import LoginComponent from './components/LoginComponent';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
           <Routes>
               <Route path={'/home'} element={<HomeComponent/>}></Route>
               <Route path={'/products'} element={<ListComponent/>}></Route>
+              <Route path={'/login'} element={<LoginComponent/>}></Route>
               <Route path={'/products/create'} element={<AddComponent/>}></Route>
               <Route path={'/products/detail/:id'} element={<DetailComponent/>}></Route>
           </Routes>

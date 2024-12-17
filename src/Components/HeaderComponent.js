@@ -19,6 +19,9 @@ function HeaderComponent() {
                         <li className="nav-item">
                             <NavLink   className={({isActive})=>`nav-link ${isActive?'active-link':''}`} to="/products">List</NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink   className={({isActive})=>`nav-link ${isActive?'active-link':''}`} to="/login">Login</NavLink>
+                        </li>
                       </ul>
                 </div>
             </div>
